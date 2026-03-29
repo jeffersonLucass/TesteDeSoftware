@@ -1,4 +1,4 @@
-package main.java.br.com.grupo;
+package br.com.grupo;
 
 public class Calculadora {
 

@@ -16,7 +16,7 @@ public class CalculadoraTest {
 
     @Test
     void testSomaCorreta() {
-        assertEquals(10.0, calculadora.somar(7.0, 3.0));
+        assertEquals(999.0, calculadora.somar(7.0, 3.0)); // errado propositalmente
     }
 
     @Test

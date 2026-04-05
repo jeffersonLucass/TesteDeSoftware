@@ -42,4 +42,11 @@ public class CalculadoraTest {
         );
         assertEquals("Não é possível dividir por zero!", excecao.getMessage());
     }
+
+    @Test
+    void testFalhaIntencional() {
+        // Teste que falha propositalmente para demonstrar falha no pipeline
+        assertEquals(99.0, calculadora.somar(7.0, 3.0), "Falha intencional: esperado errado");
+    }
+    
 }
